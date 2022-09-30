@@ -9,4 +9,5 @@ is_on = True
 
 coffee_maker.report() #Taps into coffee_maker and pulls out the report
 money_machine.report() #taps into money_machine and pulls out the report
-
+while is_on:
+    options = menu.get_items() #Saves the list of all the options in menu to the variable menu
